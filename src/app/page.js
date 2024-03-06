@@ -10,7 +10,7 @@ export default function Home() {
       <section className={styles.center}>
         {/* Using a Stack component for layout */}
         <Stack spacing={2} direction="column">
-          {/* Placing the button directly without wrapping it in a link */}
+    
           <Button
             href='/rom.jpg'
             download="/rom.jpg"
